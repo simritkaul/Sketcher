@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, flash
-from main import *
+from main import sketch_image
 import os
 
 UPLOAD_FOLDER = os.path.join('static', 'images')
