@@ -13,9 +13,11 @@
             <h1>Your sketch is complete</h1>
             <img src="{{ sketchImage }}" alt="Sketched Image" class="sketch-img" />
             <div class="btn-group">
-                <a href="{{ sketchImage }}" download="sketch">
-                    <button class="down-btn">Download Sketch</button>
-                </a>
+                <!-- <a href="{{ sketchImage }}" download="sketch" class="download-link"> -->
+                <button class="down-btn">
+                    <a href="{{ sketchImage }}" download="sketch" class="download-link"> Download Sketch </a>
+                </button>
+                <!-- </a> -->
                 <a href="/">
                     <button class="back-btn">Go back</button>
                 </a>

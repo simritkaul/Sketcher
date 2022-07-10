@@ -70,6 +70,16 @@ h1 {
     border-radius: 10px;
 }
 
+.download-link {
+    text-decoration: none;
+    height: inherit;
+    width: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
 .down-btn {
     background: #113e49;
     height: 40px;
@@ -85,7 +95,6 @@ h1 {
 }
 
 .down-btn:hover {
-    cursor: pointer;
     background: #cff5f8;
     color: black;
 }
